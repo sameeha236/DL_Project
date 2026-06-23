@@ -115,8 +115,6 @@ Core stack: **PyTorch**, **OpenCV**, **MediaPipe**, **scikit-learn**, **pandas/N
 
 ---
 ## 7. Future Work
-
-- Run a corrected PSL I3D notebook (`dl-psl-i3d-fixed.ipynb`) that explicitly loads the WLASL-100 RGB checkpoint chain before the PSL head, to get a fair I3D transfer result.
 - Complete the ASL Pose-TGCN source validation (Phase 1B) with full Top-1/5/10 metrics.
 - Pretrain the Pose Transformer on ASL poses before PSL fine-tuning (currently trained from scratch on PSL).
 - Data-fraction ablations (50% / 75% / 100% of PSL training data).
